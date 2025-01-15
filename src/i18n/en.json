@@ -1,0 +1,19 @@
+{
+  "header": {
+    "title": "Avi Brodetsky - Software Developer"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "body": {
+    "greeting": "Welcome to my personal site!",
+    "description": "I'm Avi Brodetsky, a software developer with 4 years of experience in the IDF developing and maintaining video systems..."
+  },
+  "footer": {
+    "switchLanguage": "עבור לעברית"
+  }
+}
