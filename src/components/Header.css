@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+.site-header {
+  /* מאפשר להציב את הניווט מעל ה-Toolbar, או כאלמנט עליון */
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* עיצוב הקישורים */
+.site-header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.site-header nav a:hover {
+  color: #ffe680; /* מעט בהיר יותר של זהב */
+}
+
+/* התאמות רספונסיביות לדוגמא */
+@media (max-width: 768px) {
+  .site-header nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

@@ -1,0 +1,23 @@
+.hero-container {
+  height: 100vh;
+  /* רקע תמונה או וידאו */
+  background: url("/public/images/bg2.jpeg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.hero-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

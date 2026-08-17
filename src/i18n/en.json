@@ -4,16 +4,140 @@
   },
   "nav": {
     "home": "Home",
-    "about": "About",
-    "skills": "Skills",
-    "experience": "Experience",
+    "resume": "Resume",
     "contact": "Contact"
   },
-  "body": {
-    "greeting": "Welcome to my personal site!",
-    "description": "I'm Avi Brodetsky, a software developer with 4 years of experience in the IDF developing and maintaining video systems..."
-  },
   "footer": {
-    "switchLanguage": "עבור לעברית"
+    "switchLanguage": "עבור לעברית",
+    "copy": "© 2025 Avi Brodetsky",
+    "rights": "All rights reserved"
+  },
+  "intro": {
+    "headline": "Hello! I'm Avi Brodetsky, Software Developer",
+    "subHeadline": "with 4 years of experience in developing and maintaining video systems in the IDF...",
+    "detailsList": [
+      "Skilled in end-to-end web application development (Front-End & Back-End) through academic & professional projects",
+      "Practical experience: React, Node.js, JavaScript, HTML, CSS, MongoDB, APIs, Git/GitHub, AWS, C#, C, C++, Java, Python, MySQL, PL/SQL, Angular, API integration, Control-M, DataPower, Citrix, TFS, .NET Core/Framework",
+      "Experienced in complex networking environments and highly secure systems",
+      "Holds a Software Engineering Technician certificate, currently pursuing a Software Engineering degree at Ariel University",
+      "Full professional proficiency in English"
+    ],
+    "contactInfo": {
+      "phone": "Phone: +972-54-5665166",
+      "email": "Email: avib660@gmail.com",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "resume": {
+    "workExperienceTitle": "Work Experience",
+    "workExperience": [
+      {
+        "id": 1,
+        "period": "March 2024 – Present",
+        "company": "Bank Of Israel",
+        "role": "Full-Stack Developer",
+        "desc": [
+          "Developed solutions in C#, Python, Angular, PL/SQL, AWS, .NET Core, .NET Framework, Control-M, DataPower, Citrix, TFS.",
+          "Enhanced business processes in international investment management (email automation, real-time trading dashboards).",
+          "Reduced operational workflows from days to seconds via automation & optimized code.",
+          "Improved UI/UX dashboards & processes, ensuring secure handling of sensitive financial data.",
+          "Collaborated with cross-functional teams (IT, trading room staff, project managers, 3rd parties)."
+        ]
+      },
+      {
+        "id": 2,
+        "period": "November 2020 – February 2024",
+        "company": "Israeli Air Force, IDF",
+        "role": "Software Developer (Military Service)",
+        "desc": [
+          "Planned and implemented advanced video systems for training, reducing costs by ~10%.",
+          "Developed front-end/back-end projects (React, Node.js, JS, HTML, CSS) with ~50% performance improvement.",
+          "Ran complex algorithms in C, C++, Java, Python, cutting processing time by ~50%."
+        ]
+      },
+      {
+        "id": 3,
+        "period": "April – November 2020",
+        "company": "United Hatzalah",
+        "role": "Humanitarian Aid Center",
+        "desc": [
+          "Central role in logistics management (food, medicine) during Covid-19.",
+          "Improved supply chain efficiency by 15%.",
+          "Coordinated urgent rescue operations and aid shipments."
+        ]
+      },
+      {
+        "id": 4,
+        "period": "November 2018 – November 2020",
+        "company": "Lev Academic Center",
+        "role": "Admissions Management",
+        "desc": [
+          "Managed college admissions & info system: grades, course arrangement, recruitment & registration of ~1000 new students.",
+          "Provided personalized course routes with high efficiency."
+        ]
+      }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "id": 1,
+        "institution": "Ariel University",
+        "period": "May 2022 - Present",
+        "details": [
+          "Software Engineering studies emphasizing data structures (Java), GPA 93.",
+          "Comprehensive Amazon AWS Solutions Architect course.",
+          "Completed a Full Stack final project."
+        ]
+      },
+      {
+        "id": 2,
+        "institution": "Ort Singalovsky College Tel Aviv",
+        "period": "May 2020 - May 2022",
+        "details": [
+          "Software technician program specializing in full-stack, overall GPA 90.",
+          "Full Stack project with a responsive website + secure payment API for event donations & greetings, GPA 85."
+        ]
+      },
+      {
+        "id": 3,
+        "institution": "Lev Academic Center",
+        "period": "November 2018 - November 2020",
+        "details": ["Pursued a BSc in Computer Science (1.5 years), GPA 80."]
+      },
+      {
+        "id": 4,
+        "institution": "Military Course (August 2022)",
+        "details": [
+          "Python programming with a strong understanding of core concepts, GPA 100."
+        ]
+      }
+    ],
+    "skillsTitle": "Technical Skills",
+    "skills": [
+      "C, C++, C#, Java, Python, JavaScript, HTML, CSS",
+      "Angular, React, Node.js, MongoDB, Git/GitHub, AWS, Visual Studio Code, Visual Studio, PyCharm, IntelliJ",
+      "PL/SQL, Control-M, DataPower, Citrix, TFS, .NET Core, .NET Framework"
+    ],
+    "languagesTitle": "Languages",
+    "languages": [
+      "Hebrew: Native",
+      "English: Full professional proficiency",
+      "Russian: Basic speaker"
+    ],
+    "referencesTitle": "References",
+    "references": [
+      "Lior Mendelovitz, Technology Development Manager at Bank of Israel, Phone: +972-52-8293921",
+      "Further references available upon request"
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send"
   }
 }
